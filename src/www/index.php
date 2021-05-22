@@ -60,24 +60,3 @@ Registry::set( 'routes', [
 
 $fc = new FrontController( new Request, new Response );
 $fc->dispatch();
-
-//$factory = new Factory;
-
-//$controller = $factory->make( 'PageController' );
-//$controller->execute();
-
-//$frontController = new FrontController( new Request, new Response );
-//$frontController->dispatch();
-
-/*
-$request = new Request;
-Registry::set( 'request', $request );
-
-$router = new Router;
-
-$callbacks = $router->route( $request );
-foreach ( $callbacks as $callback ) {
-	$callbackResult = $callback();
-	print $callbackResult;
-}
-*/
